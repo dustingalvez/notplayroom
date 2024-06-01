@@ -1,7 +1,3 @@
-Sure, here's a README file for your GitHub repository:
-
----
-
 # NotPlayroom
 
 Welcome to the NotPlayroom repository! This is where I will be dumping all the web applications I create for work. 
