@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Word Bingo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>BINGO</h1>
+    <label for="num-cards">Number of Cards:</label>
+    <select id="num-cards" aria-label="Number of Bingo Cards">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+    <button onclick="generateMultipleCards()">Generate Bingo Cards</button>
+    <button onclick="resetBingoCards()">Reset Bingo Cards</button>
+    <div id="bingo-container" role="grid"></div>
+    <script src="script.js"></script>
+</body>
+</html>
